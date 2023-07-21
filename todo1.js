@@ -154,6 +154,7 @@ function sortAndRenderT2(){
       `;
    
       dataInSection1.style.backgroundColor=i.objpriority;
+      dataInSection1.style.width='100%'
       dataInSection1.style.opacity='.8';
       completedTask.className='completed';
       completedTask.textContent='Completed';
@@ -241,7 +242,8 @@ function sortAndRenderT1(){
    </div>
     `;
  
-     dataInSection1.style.backgroundColor=text.objpriority;
+     
+     dataInSection1.style.width='100%'
      dataInSection1.style.opacity='.8';
      completedTask.className='completed';
       completedTask.textContent='Completed';
@@ -291,7 +293,8 @@ function sortAndRenderT1(){
    </div>
     `;
  
-     dataInSection1.style.backgroundColor=text.objpriority;
+   
+     dataInSection1.style.width='100%'
      dataInSection1.style.opacity='.8';
      completedTask.className='completed';
      completedTask.textContent='Completed';
@@ -334,7 +337,8 @@ function sortAndRenderT1(){
      </div>
       `;
    
-       dataInSection1.style.backgroundColor=text.objpriority;
+       
+       dataInSection1.style.width='100%'
        dataInSection1.style.opacity='.8';
        completedTask.className='completed';
         completedTask.textContent='Completed';
@@ -409,6 +413,8 @@ function renderSection_2(){
 
   sectionComplete.innerHTML='';
   sectionComplete.style.display='block';
+  sectionComplete.style.width='100%';
+  
 
   for(const inp of arrayCompleted)
   {
