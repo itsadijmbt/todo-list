@@ -242,7 +242,7 @@ function sortAndRenderT1(){
    </div>
     `;
  
-     
+     dataInSection1.style.backgroundColor=text.objpriority;
      dataInSection1.style.width='100%'
      dataInSection1.style.opacity='.8';
      completedTask.className='completed';
@@ -293,7 +293,7 @@ function sortAndRenderT1(){
    </div>
     `;
  
-   
+     dataInSection1.style.backgroundColor=text.objpriority;
      dataInSection1.style.width='100%'
      dataInSection1.style.opacity='.8';
      completedTask.className='completed';
@@ -337,7 +337,7 @@ function sortAndRenderT1(){
      </div>
       `;
    
-       
+       dataInSection1.style.backgroundColor=text.objpriority;
        dataInSection1.style.width='100%'
        dataInSection1.style.opacity='.8';
        completedTask.className='completed';
